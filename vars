@@ -61,15 +61,15 @@ export KEY_EXPIRE=3650
 # These are the default values for fields
 # which will be placed in the certificate.
 # Don't leave any of these fields blank.
-export KEY_COUNTRY="US"
-export KEY_PROVINCE="CA"
-export KEY_CITY="SanFrancisco"
-export KEY_ORG="Fort-Funston"
-export KEY_EMAIL="me@myhost.mydomain"
-export KEY_OU="MyOrganizationalUnit"
+export KEY_COUNTRY="TW"
+export KEY_PROVINCE="Taiwan"
+export KEY_CITY="HsinChu"
+export KEY_ORG="Night9 Studios"
+export KEY_EMAIL="root@night9.cc"
+export KEY_OU="www.night9.cc"
 
 # X509 Subject Field
-export KEY_NAME="EasyRSA"
+export KEY_NAME=""
 
 # PKCS11 Smart Card
 # export PKCS11_MODULE_PATH="/usr/lib/changeme.so"
@@ -77,4 +77,4 @@ export KEY_NAME="EasyRSA"
 
 # If you'd like to sign all keys with the same Common Name, uncomment the KEY_CN export below
 # You will also need to make sure your OpenVPN server config has the duplicate-cn option set
-# export KEY_CN="CommonName"
+export KEY_CN="Night9 Local Authority Root CA"
