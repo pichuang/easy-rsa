@@ -65,7 +65,7 @@ export KEY_COUNTRY="TW"
 export KEY_PROVINCE="Taiwan"
 export KEY_CITY="HsinChu"
 export KEY_ORG="Night9 Studios"
-export KEY_EMAIL="www@night9.cc"
+export KEY_EMAIL="roan@night9.cc"
 export KEY_OU="www.night9.cc"
 
 # X509 Subject Field
@@ -77,4 +77,4 @@ export KEY_NAME=""
 
 # If you'd like to sign all keys with the same Common Name, uncomment the KEY_CN export below
 # You will also need to make sure your OpenVPN server config has the duplicate-cn option set
-export KEY_CN="*.night9.cc"
+export KEY_CN="roan.night9.cc"
